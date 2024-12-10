@@ -29,11 +29,17 @@ int ft_atoi(char *str) {
         i++;
     }
 
+    
+
     if (nbm % 2 != 0) {
-        return -t;
+        t = -t;
     } else {
-        return t;
+        t = t;
     }
+
+
+
+
 }
 
 int main() {
